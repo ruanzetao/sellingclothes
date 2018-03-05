@@ -1,0 +1,175 @@
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu{
+	border-left: 1px solid #172a3a;
+	border-right: 1px solid #172a3a;
+	border-bottom: 1px solid #172a3a;
+}
+.main-header .logo{
+	font-family: 'Merienda', cursive;
+}
+a{
+	cursor: pointer;
+}
+.row{
+	margin: 0;
+}
+.content-wrapper{
+	padding: 15px;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+label {
+	font-size: 13px;
+	display: inline-block;
+}
+
+label.advanced {
+	font-size: 20px;
+}
+
+label.advanced:hover {
+	cursor: pointer;
+}
+
+input {
+	font-size: 13px;
+}
+
+.frmMenu {
+	border-bottom: 1px solid #d5d0d0;
+}
+
+.lblIndex {
+	height: 30px;
+	width: 70px;
+	border: 1px;
+	display: inline-block;
+}
+
+.input-date {
+	width: 100%;
+	font-size: 13px;
+	height: 30px;
+	display: inline-block;
+}
+/*style table*/
+.col {
+	background: #e8edf3;
+	color: #3b3a36;
+}
+
+th, td {
+	border: solid 1px #f2e9e9;
+	text-align: center;
+}
+/*set image*/
+img {
+	width: 20px;
+	height: 20px;
+}
+
+img:hover {
+	background: #f5f2f2;
+}
+/*visible element*/
+.displayNone {
+	display: none;
+}
+/*btn click change page in table*/
+
+.searchTableInput {
+	background-image: url('../image/searchicon.png');
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+	width: 50%;
+	font-size: 13px;
+	padding: 5px 5px 5px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 1px;
+	float: right;
+	position: relative;
+	right: 1px;
+}
+
+.inputNumberSearch {
+	background-repeat: no-repeat;
+	padding: 5px 5px 5px 5px;
+	border: none;
+	width: 10%;
+	float: left;
+	position: relative;
+}
+
+.lableNumberSearch {
+	background-repeat: no-repeat;
+	padding: 5px 5px 5px 5px;
+	border: 1px;
+	width: auto;
+	float: left;
+	position: relative;
+}
+.loader {
+	font-size: 15px;
+	text-indent: -9999em;
+	overflow: hidden;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	margin:0;
+	position:relative;
+	left:10px;
+	-webkit-animation: load6 1.5s infinite ease;
+	animation: load6 1.5s infinite ease;
+	display:none;
+}
+@-webkit-keyframes load6 {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.11em -0.83em 0 -0.42em #3b3a36, -0.11em -0.83em 0 -0.44em #3b3a36, -0.11em -0.83em 0 -0.46em #3b3a36, -0.11em -0.83em 0 -0.477em #3b3a36;
+	}
+	5%,
+	95% {
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.11em -0.83em 0 -0.42em #3b3a36, -0.11em -0.83em 0 -0.44em #3b3a36, -0.11em -0.83em 0 -0.46em #3b3a36, -0.11em -0.83em 0 -0.477em #3b3a36;
+	}
+	30% {
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.51em -0.66em 0 -0.42em #3b3a36, -0.75em -0.36em 0 -0.44em #3b3a36, -0.83em -0.03em 0 -0.46em #3b3a36, -0.81em 0.21em 0 -0.477em #3b3a36;
+	}
+	55% {
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.29em -0.78em 0 -0.42em #3b3a36, -0.43em -0.72em 0 -0.44em #3b3a36, -0.52em -0.65em 0 -0.46em #3b3a36, -0.57em -0.61em 0 -0.477em #3b3a36;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.11em -0.83em 0 -0.42em #3b3a36, -0.11em -0.83em 0 -0.44em #3b3a36, -0.11em -0.83em 0 -0.46em #3b3a36, -0.11em -0.83em 0 -0.477em #3b3a36;
+	}
+}
+@keyframes load6 {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.11em -0.83em 0 -0.42em #3b3a36, -0.11em -0.83em 0 -0.44em #3b3a36, -0.11em -0.83em 0 -0.46em #3b3a36, -0.11em -0.83em 0 -0.477em #3b3a36;
+	}
+	5%,
+	95% {
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.11em -0.83em 0 -0.42em #3b3a36, -0.11em -0.83em 0 -0.44em #3b3a36, -0.11em -0.83em 0 -0.46em #3b3a36, -0.11em -0.83em 0 -0.477em #3b3a36;
+	}
+	30% {
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.51em -0.66em 0 -0.42em #3b3a36, -0.75em -0.36em 0 -0.44em #3b3a36, -0.83em -0.03em 0 -0.46em #3b3a36, -0.81em 0.21em 0 -0.477em #3b3a36;
+	}
+	55% {
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.29em -0.78em 0 -0.42em #3b3a36, -0.43em -0.72em 0 -0.44em #3b3a36, -0.52em -0.65em 0 -0.46em #3b3a36, -0.57em -0.61em 0 -0.477em #3b3a36;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		box-shadow: -0.11em -0.83em 0 -0.4em #3b3a36, -0.11em -0.83em 0 -0.42em #3b3a36, -0.11em -0.83em 0 -0.44em #3b3a36, -0.11em -0.83em 0 -0.46em #3b3a36, -0.11em -0.83em 0 -0.477em #3b3a36;
+	}
+}
+@media screen and (max-width: 768px) {
+	.brNone {
+		display:none;
+	}
+}

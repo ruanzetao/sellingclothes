@@ -1,0 +1,137 @@
+/* create by namnh */
+.itemDetail{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 25px;
+}
+.itemDetail{
+	border: 1px solid #A0A0A0;
+	margin: 3px;
+}
+.search-input{
+	padding-top: 15px;
+}
+.table-content{
+	padding-top: 10px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.Table-Pagination{
+	text-align: right;
+}
+.modal-backdrop{
+	z-index: 98!important;
+}
+.modal{
+	z-index: 99!important;
+}
+.header-content{
+	padding-top: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #A0A0A0;
+}
+.inputPictureGroup{
+	min-height: 150px;
+	border: 1px solid #A0A0A0;
+	border-radius: 5px;
+	padding: 0;
+}
+.input-Img{
+	display: block;
+	text-align: center;
+	border-bottom: 1px solid #A0A0A0;
+	color: #2FB42F;
+}
+.itemDivDetail{
+	display: inline-block;
+}
+.img-product-edit{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #A0A0A0;
+	margin: 2px;
+}
+.item-picture{
+	display: inline-block;
+}
+.removeItem{
+	position: relative;
+	top: -17px;
+	left: -15px;
+	color: #450404;
+	font-size: 13px;
+	cursor: pointer;
+}
+.removeImg{
+	position: relative;
+	top: -18px;
+	left: -20px;
+	color: #450404;
+	font-size: 18px;
+	cursor: pointer;
+}
+.inputPicture{
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid #A0A0A0;
+}
+.positionLeft{
+	text-align: left;
+}
+.img-product{
+	padding: 5px;
+	width: 50px;
+	height: 50px;
+}
+.header-content .col-md-4{
+	padding-left: 0;
+	padding-right: 0;
+}
+#btnAdd{
+	margin-bottom: 10px;
+}
+.fa.fa-pencil-square-o,.fa.fa-trash-o,.fa.fa-reply{
+	margin-left: 10px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+}
+.fa.fa-pencil-square-o{
+	color: #2FB42F;
+}
+.fa.fa-trash-o,.fa.fa-reply{
+	color: #B83A3A;
+}
+#checkIsDelete,#lblCheckIsDelete{
+	cursor: pointer;
+	display: inline-block;
+}
+.txtDescription{
+	min-height: 100px;
+	resize: none;
+}
+.inputSize{
+	text-align: center;
+	max-width: 30%;
+	color: #0F0BC4;
+	font-weight: bold;
+}
+.form-group.pull-left,.form-inline.col-md-12{
+	padding: 0;
+}
+#inputSizeSearch{
+	border-radius: 4px 0 0 0;
+}
+#inputDescriptionSearch{
+	border-radius: 0 0 0 4px;
+}
+.lable-detail{
+	text-decoration: underline;
+	cursor: pointer;
+	margin-left: 15px;
+	color: #337ab7;
+}

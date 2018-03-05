@@ -1,0 +1,10 @@
+.imageUser{
+	padding: 10px;
+}
+.input-Img{
+	cursor: pointer;
+	width: 100%;
+	height: 170px;
+	border-radius: 50%;
+	border: 1px solid #C7C1C1;
+}

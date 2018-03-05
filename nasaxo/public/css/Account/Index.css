@@ -1,0 +1,178 @@
+/* creat by namnh-UIT */
+.infomation-content{
+	display: inline-block;
+	width: 100%;
+	background: #fff;
+	border-radius: 0 5px;
+	padding: 0;
+}
+.group-content{
+	display: inline-block;
+	width: 100%;
+	margin-top: 15px;
+}
+.field-lable{
+	vertical-align: top;
+	display: inline-block;
+	cursor: default;
+	min-width: 150px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.field-input{
+	vertical-align: middle;
+	width: 30%;
+	border-radius: 5px;
+	resize: none;
+}
+.btn-update{
+	margin-top: 15px;
+	margin-left: 150px;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.ckb-ChangePass{
+	margin-left: 150px;
+	font-weight: normal;
+}
+.infomation-account h4{
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	padding: 10px;
+	background: #fff;
+	border-radius: 15px 15px 0 0;
+	border-bottom: 3px dashed #f4f4f4;
+}
+.infomation-account h4 span{
+	color: #B40A0A;
+}
+.footerBtn{
+	max-width: 80px;
+	min-width: 80px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.btn-cancel:hover{
+	background: #A8A6A6;
+}
+.rememver-content{
+	border: 1px solid #989898;
+	max-width: 500px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 20px;
+}
+.content-product{
+	padding: 50px 0 100px 0;
+}
+.find-content{
+	padding: 10px;
+}
+.infomation-account,.message-content{
+	padding-top: 10px;
+	background: transparent;
+}
+.rememver-content .infomation-content h4{
+	border-bottom: 1px solid #f4f4f4;
+	font-weight: bold;
+	padding-left: 5px;
+}
+.Remember-email{
+	display: block;
+	margin-top: 10px;
+}
+.Remember-email span.email{
+	color: #2E39A2;
+	cursor: pointer;
+}
+.Remember-email span.reSend{
+	color: #B40A0A;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.txtInputRemember{
+	min-width: 300px;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+textarea.field-input{
+	min-height: 100px;
+}
+.password-content{
+	display: inline-block;
+	width: 100%;
+}
+#txtUserName,#txtEmail{
+	cursor: not-allowed;
+}
+.check-done{
+	color: #3DF812;
+	margin-left: -4px;
+}
+.footer-remember{
+	text-align: right;
+	background: #f2f2f2;
+	padding: 10px 5px 10px 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.check-false {
+	color: #B40A0A;
+}
+.check-done,.check-false{
+	vertical-align: middle;
+}
+.input-false{
+	border: 2px solid #B40A0A;
+}
+.groupMessage-read,.groupMessage-unread{
+	border-bottom: 1px solid #f4f4f4;
+	padding: 15px;
+}
+.groupMessage-read{
+	background: #fff;
+}
+.groupMessage-unread{
+	background:#f6fcff;
+}
+.mesage-date{
+	display: inline-block;
+	min-width: 100px;
+	max-width: 100px;
+	font-weight: bold;
+	font-size: 17px;
+}
+.message-notify{
+	display: block;
+}
+.message-delete{
+	color: #B40A0A;
+}
+.message-checkRead{
+	color: #3AC41A;
+}
+.message-delete,.message-checkRead{
+	font-size: 20px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.content-remember{
+	margin-top: 30px;
+}
+.content-product .row{
+	margin: 0;
+}
+/* background cc0033
+	background fff;
+	body f4f4f4
+	boder D9D7D7
+	color #365899
+	detail 90949c
+	00afef
+	3DF812
+	B40A0A
+	f6fcff
+ */

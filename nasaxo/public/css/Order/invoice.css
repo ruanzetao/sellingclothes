@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+}
+p{
+	font-size: 14px;
+}
+.DonHang {
+    border: 2px solid rgba(0, 0, 0, 0.35);
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    padding-top: 2px;
+}
+.progress{
+    background: #00b6f0!important;
+}
+.address-invoice {
+    border: 2px solid rgba(0, 0, 0, 0.35);
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h3.donhang {
+    padding-top: 16px;
+}
+
+button.btn.btn-default.pull-right {
+    width: 100px;
+}
+.btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button.btn.btn-danger {
+    float: right;
+    width: 142px;
+    height: 40px;
+    margin: 20px;
+}
+
+html {}
+
+.time {
+    border: 2px solid rgba(0, 0, 0, 0.35);
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.paymentmethod {
+    /* background-color: rgba(46, 249, 9, 0.19); */
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: rgba(41, 40, 40, 0.2);
+}
+
+.address-invoice {
+    min-height: 200px;
+    padding-top: 15px;
+}
+
+button.btn.btn-default.pull-right {
+    margin-top: -49px;
+}
+
+button.btn.btn-default.pull-right {
+    margin-top: -39px;
+    /* margin-left: 12px; */
+    margin-right: 66px;
+}
+
+.DonHang {
+    padding-top: 15px;
+}
+
+span.fa.fa-bicycle {
+    padding-top: 6px;
+}
+
+.time {
+    padding-top: 17px;
+}
+
+.choices_payment {
+    padding-top: 1px;
+}
+
+.paymentmethod {padding-top: 15px;}

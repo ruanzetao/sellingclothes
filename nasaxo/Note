@@ -1,0 +1,28 @@
+-- Tạo migrate
+php artisan migrate
+-- khởi tạo migration in file
+php artisan make:migration create_abc --create=abc
+-- bỏ cái cái stt nhất
+php artisan migrate:rollback
+-- vua rollback vua edit
+php artisan migrate:refresh
+-- hủy all bange
+php artisan migrate:reset
+-- Thêm dủ liệu vào database
+seeds
+php artisan db:seed
+--tao model
+php artisan make:model abs
+--tạo request
+php artisan make:request abs
+--thêm file vào database
+enctype='multipart/form-data' --thêm vào forrm
+	{{csrf_field()}}	
+--macro
+php artisan make:provider macroProvider : khai báo trong app.php 
+ Response::macro('cap',function($str){
+            return $str .' ahihi';
+        });
+--auth: đăng nhập quên mật khẩu mật định
+php artisan make:auth
+--restfull

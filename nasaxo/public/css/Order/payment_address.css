@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+}
+label {
+	margin-bottom: 7px;
+	margin-top: 12px;
+}
+
+.btn:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input:invalid  + input , input:invalid{
+	border-color: #DD0707;
+}

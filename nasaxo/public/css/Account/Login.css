@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+}
+.btn:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.frmLogin {
+    margin-top: 17px;
+    width: 343px;
+}
+
+a{
+	color:black;
+	
+}
+.RememberPass{
+    text-decoration: underline;
+    padding-left: 200px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #151414;
+    color:white;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #080808;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #080808;
+    border-bottom-color: transparent;
+}

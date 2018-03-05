@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+}
+.col-md-3.col-md-push-1.nav.nav-tabs {
+    background-color: rgba(249, 249, 249, 0.45);
+    width: 273px;
+}
+
+.Dangki {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.DangNhap {
+    margin-top: 12px;
+    /* background-color: #f1ebeb; */
+    /* margin-bottom: 10px; */
+}
+.row.row-style-1 {
+    margin-top: -6px;
+    margin-left: 277px;
+}
+
+
+
+.shipping-header {
+    background: #fff;
+}
+.shipping-header {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background: #f8f8f8;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+}
+.col-lg-8 {
+    width: 66.66667%;
+}
+ .shipping-header .bs-wizard>.bs-wizard-step {
+    padding: 0;
+    position: relative;
+}
+.col-lg-4 {
+    width: 33.33333%;
+}
+ .shipping-header .bs-wizard>.bs-wizard-step .bs-wizard-stepnum {
+    color: #595959;
+    font-size: 14px;
+}
+ .text-center {
+    text-align: center;
+}
+ .shipping-header .bs-wizard>.bs-wizard-step .bs-wizard-stepnum {
+    color: #595959;
+    font-size: 14px;
+}
+ .shipping-header .bs-wizard>.bs-wizard-step:first-child>.progress {
+    left: 50%;
+    width: 50%;
+}
+ .shipping-header .bs-wizard>.bs-wizard-step>.progress {
+    height: 6px;
+    margin: 20px 0;
+    background: #ebebeb;
+}
+ .shipping-header .bs-wizard>.bs-wizard-step>.progress {
+    position: relative;
+    border-radius: 0;
+    box-shadow: none;
+}
+.embed-responsive, .modal, .modal-open, .nav .nav-divider, .progress {
+    overflow: hidden;
+}
+ .shipping-header .bs-wizard>.bs-wizard-step>.bs-wizard-dot {
+    background: #00b6f0;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    line-height: 26px;
+    -webkit-box-shadow: #666 0 0 2px;
+    -moz-box-shadow: #666 0 0 2px;
+    box-shadow: #666 0 0 2px;
+}
+.shipping-header .bs-wizard>.bs-wizard-step>.bs-wizard-dot {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    display: block;
+    top: 41px;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    border-radius: 50%;
+    text-align: center;
+}
+.shipping-header .bs-wizard>.bs-wizard-step:last-child>.progress {
+    width: 50%;
+}
